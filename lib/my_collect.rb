@@ -4,5 +4,6 @@ def my_collect(array)
     change.upcase
   new_collection << yield(array)
   end
+  new_collection
 end
 
