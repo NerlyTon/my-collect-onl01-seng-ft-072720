@@ -1,7 +1,7 @@
 def my_collect(array)
   new_collection = []
-  collection = array.collect do |change|
-    change.upcase
+  collection = array.collect do |lang|
+    lang.upcase
   new_collection << yield(array)
   end
   new_collection
