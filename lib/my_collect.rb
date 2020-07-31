@@ -1,5 +1,5 @@
-def my_collect(collection)
-  i = 0
-  
+def my_collect(array)
+  collection = []
+  collection << yield(array)
 end
 
