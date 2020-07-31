@@ -4,7 +4,8 @@ def my_collect(array)
   while i < array.length
   # collection = array.collect do |lang|
   #   lang.upcase
-  new_collection << yield(array[i])
+  new_collection.push yield(array[i])
+  i += 1
   end
   new_collection
 end
